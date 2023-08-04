@@ -3,6 +3,7 @@
     {
       "name": "EtherealBlock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ethereal_block",
@@ -14,13 +15,73 @@
           "src/main/resources/assets/ethereal_engines/models/block/ethereal_block.json"
         ]
       }
+    },
+    {
+      "name": "Etherium",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherium",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/challenger1/etherealengines/fluid/types/EtheriumFluidType.java",
+          "src/main/resources/assets/ethereal_engines/models/item/etherium_bucket.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/EtheriumBlock.java",
+          "src/main/java/com/github/challenger1/etherealengines/item/EtheriumItem.java",
+          "src/main/resources/assets/ethereal_engines/models/block/etherium.json",
+          "src/main/java/com/github/challenger1/etherealengines/fluid/EtheriumFluid.java",
+          "src/main/resources/assets/ethereal_engines/blockstates/etherium.json"
+        ]
+      }
+    },
+    {
+      "name": "EtheriaSurface",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etheria_surface",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ethereal_engines/worldgen/biome/etheria_surface.json"
+        ]
+      }
+    },
+    {
+      "name": "Etheria",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etheria",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ethereal_engines/dimension/etheria.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/teleporter/EtheriaPortalShape.java",
+          "src/main/java/com/github/challenger1/etherealengines/item/EtheriaItem.java",
+          "src/main/resources/assets/ethereal_engines/blockstates/etheria_portal.json",
+          "src/main/resources/data/ethereal_engines/dimension_type/etheria.json",
+          "src/main/resources/assets/ethereal_engines/models/block/etheria_portal_ew.json",
+          "src/main/resources/assets/ethereal_engines/models/block/etheria_portal_ns.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/dimension/EtheriaDimension.java",
+          "src/main/java/com/github/challenger1/etherealengines/world/teleporter/EtheriaTeleporter.java",
+          "src/main/java/com/github/challenger1/etherealengines/block/EtheriaPortalBlock.java",
+          "src/main/resources/assets/ethereal_engines/models/item/etheria.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.ethereal_engines.ethereal_block": "Ethereal Block"
+      "biome.ethereal_engines.etheria_surface": "Etheria Surface",
+      "item.ethereal_engines.etheria": "Etheria Portal Igniter",
+      "block.ethereal_engines.ethereal_block": "Ethereal Block",
+      "fluid.ethereal_engines.etherium": "Etherium",
+      "item.ethereal_engines.etherium_bucket": "Etherium Bucket",
+      "block.ethereal_engines.etherium": "Etherium"
     }
   },
   "foldersRoot": {

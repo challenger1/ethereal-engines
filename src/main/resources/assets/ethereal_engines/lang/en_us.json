@@ -1,3 +1,8 @@
 {
-  "block.ethereal_engines.ethereal_block": "Ethereal Block"
+  "biome.ethereal_engines.etheria_surface": "Etheria Surface",
+  "item.ethereal_engines.etheria": "Etheria Portal Igniter",
+  "block.ethereal_engines.ethereal_block": "Ethereal Block",
+  "fluid.ethereal_engines.etherium": "Etherium",
+  "item.ethereal_engines.etherium_bucket": "Etherium Bucket",
+  "block.ethereal_engines.etherium": "Etherium"
 }

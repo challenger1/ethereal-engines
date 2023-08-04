@@ -10,10 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import com.github.challenger1.etherealengines.block.EtheriumBlock;
+import com.github.challenger1.etherealengines.block.EtheriaPortalBlock;
 import com.github.challenger1.etherealengines.block.EtherealBlockBlock;
 import com.github.challenger1.etherealengines.EtherealEnginesMod;
 
 public class EtherealEnginesModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EtherealEnginesMod.MODID);
+	public static final RegistryObject<Block> ETHERIUM = REGISTRY.register("etherium", () -> new EtheriumBlock());
 	public static final RegistryObject<Block> ETHEREAL_BLOCK = REGISTRY.register("ethereal_block", () -> new EtherealBlockBlock());
+	public static final RegistryObject<Block> ETHERIA_PORTAL = REGISTRY.register("etheria_portal", () -> new EtheriaPortalBlock());
 }
