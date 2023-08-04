@@ -16,7 +16,7 @@
     },
     "canRespawnHere": true,
     "hasFog": false,
-    "isDark": true,
+    "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": true,
