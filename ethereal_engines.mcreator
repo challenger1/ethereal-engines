@@ -9,9 +9,9 @@
       "registry_name": "ethereal_stone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ethereal_engines/models/block/ethereal_stone.json",
-          "src/main/resources/assets/ethereal_engines/blockstates/ethereal_stone.json",
           "src/main/resources/assets/ethereal_engines/models/item/ethereal_stone.json",
+          "src/main/resources/assets/ethereal_engines/blockstates/ethereal_stone.json",
+          "src/main/resources/assets/ethereal_engines/models/block/ethereal_stone.json",
           "src/main/java/com/github/challenger1/etherealengines/block/EtherealStoneBlock.java"
         ]
       }
@@ -61,13 +61,13 @@
       "registry_name": "etherium",
       "metadata": {
         "files": [
+          "src/main/java/com/github/challenger1/etherealengines/fluid/types/EtheriumFluidType.java",
+          "src/main/resources/assets/ethereal_engines/models/item/etherium_bucket.json",
           "src/main/java/com/github/challenger1/etherealengines/block/EtheriumBlock.java",
           "src/main/java/com/github/challenger1/etherealengines/item/EtheriumItem.java",
-          "src/main/resources/assets/ethereal_engines/models/item/etherium_bucket.json",
-          "src/main/resources/assets/ethereal_engines/blockstates/etherium.json",
           "src/main/resources/assets/ethereal_engines/models/block/etherium.json",
-          "src/main/java/com/github/challenger1/etherealengines/fluid/types/EtheriumFluidType.java",
-          "src/main/java/com/github/challenger1/etherealengines/fluid/EtheriumFluid.java"
+          "src/main/java/com/github/challenger1/etherealengines/fluid/EtheriumFluid.java",
+          "src/main/resources/assets/ethereal_engines/blockstates/etherium.json"
         ]
       }
     },
@@ -80,10 +80,10 @@
       "registry_name": "ethereal_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/ethereal_engines/models/block/ethereal_block.json",
           "src/main/resources/assets/ethereal_engines/models/item/ethereal_block.json",
           "src/main/resources/assets/ethereal_engines/blockstates/ethereal_block.json",
-          "src/main/java/com/github/challenger1/etherealengines/block/EtherealBlockBlock.java"
+          "src/main/java/com/github/challenger1/etherealengines/block/EtherealBlockBlock.java",
+          "src/main/resources/assets/ethereal_engines/models/block/ethereal_block.json"
         ]
       }
     }
