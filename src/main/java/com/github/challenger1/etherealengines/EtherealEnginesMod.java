@@ -38,6 +38,9 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import com.github.challenger1.etherealengines.init.EtherealEnginesModItems;
+import com.github.challenger1.etherealengines.init.EtherealEnginesModBlocks;
+
 @Mod("ethereal_engines")
 public class EtherealEnginesMod {
 	public static final Logger LOGGER = LogManager.getLogger(EtherealEnginesMod.class);
@@ -46,6 +49,9 @@ public class EtherealEnginesMod {
 	public EtherealEnginesMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		EtherealEnginesModBlocks.REGISTRY.register(bus);
+		EtherealEnginesModItems.REGISTRY.register(bus);
 
 	}
 

@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EtherealStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethereal_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ethereal_engines/models/block/ethereal_stone.json",
+          "src/main/resources/assets/ethereal_engines/blockstates/ethereal_stone.json",
+          "src/main/resources/assets/ethereal_engines/models/item/ethereal_stone.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/EtherealStoneBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.ethereal_engines.ethereal_stone": "Ethereal Stone"
+    }
   },
   "foldersRoot": {
     "name": "~",

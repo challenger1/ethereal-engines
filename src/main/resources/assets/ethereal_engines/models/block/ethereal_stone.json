@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ethereal_engines:block/mcetherblock1",
+    "up": "ethereal_engines:block/mc_block1right_turn",
+    "north": "ethereal_engines:block/mcetherblock1",
+    "east": "ethereal_engines:block/mc_block1right_turn",
+    "south": "ethereal_engines:block/mc_block1right_turn",
+    "west": "ethereal_engines:block/mc_block1right_turn",
+    "particle": "ethereal_engines:block/mcetherblock1"
+  },
+  "render_type": "solid"
+}
