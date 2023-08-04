@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ethereal_engines:block/etheria_portal_ew"
+    },
+    "axis=x": {
+      "model": "ethereal_engines:block/etheria_portal_ns"
+    }
+  }
+}
