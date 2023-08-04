@@ -12,8 +12,12 @@
     "underwaterBlock": {
       "value": ""
     },
+    "airColor": {
+      "value": -65281,
+      "falpha": 0.0
+    },
     "ambientSound": {
-      "value": "music.end"
+      "value": "music.creative"
     },
     "additionsSound": {
       "value": "block.amethyst_block.place"
