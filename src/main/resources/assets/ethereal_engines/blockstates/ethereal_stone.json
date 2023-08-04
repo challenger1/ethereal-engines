@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "ethereal_engines:block/ethereal_stone"
+    },
+    "facing=east": {
+      "model": "ethereal_engines:block/ethereal_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ethereal_engines:block/ethereal_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ethereal_engines:block/ethereal_stone",
+      "y": 270
     }
   }
 }

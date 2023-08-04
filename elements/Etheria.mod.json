@@ -37,7 +37,7 @@
       "value": "TOOLS"
     },
     "texture": "igniter",
-    "portalTexture": "etheria_portal",
+    "portalTexture": "etheria_block_animated",
     "enablePortal": true
   }
 }

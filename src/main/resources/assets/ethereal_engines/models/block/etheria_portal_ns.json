@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "ethereal_engines:block/etheria_portal",
-    "portal": "ethereal_engines:block/etheria_portal"
+    "particle": "ethereal_engines:block/etheria_block_animated",
+    "portal": "ethereal_engines:block/etheria_block_animated"
   },
   "elements": [
     {
