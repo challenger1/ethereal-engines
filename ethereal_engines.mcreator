@@ -86,6 +86,27 @@
           "src/main/resources/assets/ethereal_engines/models/block/ethereal_block.json"
         ]
       }
+    },
+    {
+      "name": "GrowingCrystal",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growing_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ethereal_engines/forge/biome_modifier/growing_crystal_biome_modifier.json",
+          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/growing_crystal.json",
+          "src/main/resources/assets/ethereal_engines/models/block/growing_crystal.json",
+          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/growing_crystal.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/features/plants/GrowingCrystalFeature.java",
+          "src/main/resources/assets/ethereal_engines/blockstates/growing_crystal.json",
+          "src/main/resources/assets/ethereal_engines/models/item/growing_crystal.json",
+          "src/main/resources/assets/ethereal_engines/models/block/growing_crystal_bottom.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/GrowingCrystalBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -95,6 +116,7 @@
       "block.ethereal_engines.ethereal_stone": "Ethereal Stone",
       "item.ethereal_engines.etheria": "Etheria Portal Igniter",
       "biome.ethereal_engines.etheria_surface": "Etheria Surface",
+      "block.ethereal_engines.growing_crystal": "Growing Crystal",
       "block.ethereal_engines.ethereal_block": "Ethereal Block",
       "fluid.ethereal_engines.etherium": "Etherium",
       "item.ethereal_engines.etherium_bucket": "Etherium Bucket",

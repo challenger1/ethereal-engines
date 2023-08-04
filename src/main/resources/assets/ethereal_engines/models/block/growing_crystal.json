@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ethereal_engines:block/crystal_apex",
+    "particle": "ethereal_engines:block/crystal_apex"
+  },
+  "render_type": "cutout"
+}

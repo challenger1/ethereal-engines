@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import com.github.challenger1.etherealengines.block.GrowingCrystalBlock;
 import com.github.challenger1.etherealengines.block.EtheriumBlock;
 import com.github.challenger1.etherealengines.block.EtheriaPortalBlock;
 import com.github.challenger1.etherealengines.block.EtherealStoneBlock;
@@ -26,6 +27,7 @@ public class EtherealEnginesModBlocks {
 	public static final RegistryObject<Block> ETHEREAL_BLOCK = REGISTRY.register("ethereal_block", () -> new EtherealBlockBlock());
 	public static final RegistryObject<Block> ETHERIA_PORTAL = REGISTRY.register("etheria_portal", () -> new EtheriaPortalBlock());
 	public static final RegistryObject<Block> ETHEREAL_STONE = REGISTRY.register("ethereal_stone", () -> new EtherealStoneBlock());
+	public static final RegistryObject<Block> GROWING_CRYSTAL = REGISTRY.register("growing_crystal", () -> new GrowingCrystalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

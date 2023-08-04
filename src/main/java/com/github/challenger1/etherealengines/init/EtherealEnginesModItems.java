@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import com.github.challenger1.etherealengines.item.EtheriumItem;
@@ -22,8 +23,13 @@ public class EtherealEnginesModItems {
 	public static final RegistryObject<Item> ETHEREAL_BLOCK = block(EtherealEnginesModBlocks.ETHEREAL_BLOCK);
 	public static final RegistryObject<Item> ETHERIA = REGISTRY.register("etheria", () -> new EtheriaItem());
 	public static final RegistryObject<Item> ETHEREAL_STONE = block(EtherealEnginesModBlocks.ETHEREAL_STONE);
+	public static final RegistryObject<Item> GROWING_CRYSTAL = doubleBlock(EtherealEnginesModBlocks.GROWING_CRYSTAL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

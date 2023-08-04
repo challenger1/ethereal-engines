@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "ethereal_engines:block/growing_crystal"
+    },
+    "half=lower": {
+      "model": "ethereal_engines:block/growing_crystal_bottom"
+    }
+  }
+}

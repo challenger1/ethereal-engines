@@ -19,5 +19,9 @@ public class EtherealEnginesModTabs {
 			tabData.accept(EtherealEnginesModItems.ETHERIUM_BUCKET.get());
 			tabData.accept(EtherealEnginesModItems.ETHERIA.get());
 		}
+
+		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(EtherealEnginesModBlocks.GROWING_CRYSTAL.get().asItem());
+		}
 	}
 }
