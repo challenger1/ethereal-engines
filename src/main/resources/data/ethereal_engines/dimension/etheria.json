@@ -27,7 +27,7 @@
       "aquifers_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "ethereal_engines:ethereal_block"
+        "Name": "ethereal_engines:ethereal_stone"
       },
       "default_fluid": {
         "Name": "ethereal_engines:etherium",
@@ -237,7 +237,7 @@
           {
             "type": "minecraft:block",
             "result_state": {
-              "Name": "ethereal_engines:ethereal_block"
+              "Name": "ethereal_engines:ethereal_stone"
             }
           }
         ]

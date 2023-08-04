@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "ethereal_engines:ethereal_stone",
     "ethereal_engines:ethereal_block"
   ]
 }
