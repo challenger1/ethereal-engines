@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EtherealBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethereal_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ethereal_engines/models/item/ethereal_block.json",
+          "src/main/resources/assets/ethereal_engines/blockstates/ethereal_block.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/EtherealBlockBlock.java",
+          "src/main/resources/assets/ethereal_engines/models/block/ethereal_block.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.ethereal_engines.ethereal_block": "Ethereal Block"
+    }
   },
   "foldersRoot": {
     "name": "~",
