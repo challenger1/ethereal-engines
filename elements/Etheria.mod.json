@@ -9,7 +9,7 @@
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:EtherealBlock"
+      "value": "CUSTOM:EtherealStone"
     },
     "fluidBlock": {
       "value": "CUSTOM:Etherium"
