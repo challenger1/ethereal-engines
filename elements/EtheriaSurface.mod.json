@@ -7,24 +7,24 @@
       "value": "CUSTOM:EtherealBlock"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:EtherealBlock"
+      "value": "CUSTOM:EtherealStone"
     },
     "underwaterBlock": {
       "value": ""
     },
     "ambientSound": {
-      "value": "ambient.cave"
+      "value": "music.end"
     },
     "additionsSound": {
-      "value": ""
+      "value": "block.amethyst_block.place"
     },
     "music": {
-      "value": "ambient.soul_sand_valley.loop"
+      "value": "ambient.soul_sand_valley.mood"
     },
     "moodSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.mood"
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 5942,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

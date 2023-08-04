@@ -25,17 +25,17 @@
       "registry_name": "etheria",
       "metadata": {
         "files": [
-          "src/main/java/com/github/challenger1/etherealengines/item/EtheriaItem.java",
-          "src/main/resources/data/ethereal_engines/dimension_type/etheria.json",
-          "src/main/java/com/github/challenger1/etherealengines/world/teleporter/EtheriaTeleporter.java",
-          "src/main/java/com/github/challenger1/etherealengines/world/dimension/EtheriaDimension.java",
-          "src/main/java/com/github/challenger1/etherealengines/world/teleporter/EtheriaPortalShape.java",
           "src/main/resources/data/ethereal_engines/dimension/etheria.json",
-          "src/main/resources/assets/ethereal_engines/models/block/etheria_portal_ew.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/teleporter/EtheriaPortalShape.java",
+          "src/main/java/com/github/challenger1/etherealengines/item/EtheriaItem.java",
           "src/main/resources/assets/ethereal_engines/blockstates/etheria_portal.json",
-          "src/main/resources/assets/ethereal_engines/models/item/etheria.json",
+          "src/main/resources/data/ethereal_engines/dimension_type/etheria.json",
+          "src/main/resources/assets/ethereal_engines/models/block/etheria_portal_ew.json",
           "src/main/resources/assets/ethereal_engines/models/block/etheria_portal_ns.json",
-          "src/main/java/com/github/challenger1/etherealengines/block/EtheriaPortalBlock.java"
+          "src/main/java/com/github/challenger1/etherealengines/world/dimension/EtheriaDimension.java",
+          "src/main/java/com/github/challenger1/etherealengines/world/teleporter/EtheriaTeleporter.java",
+          "src/main/java/com/github/challenger1/etherealengines/block/EtheriaPortalBlock.java",
+          "src/main/resources/assets/ethereal_engines/models/item/etheria.json"
         ]
       }
     },

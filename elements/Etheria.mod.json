@@ -9,10 +9,14 @@
     ],
     "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:EtherealStone"
+      "value": "CUSTOM:EtherealBlock"
     },
     "fluidBlock": {
       "value": "CUSTOM:Etherium"
+    },
+    "airColor": {
+      "value": -65281,
+      "falpha": 0.0
     },
     "canRespawnHere": true,
     "hasFog": false,

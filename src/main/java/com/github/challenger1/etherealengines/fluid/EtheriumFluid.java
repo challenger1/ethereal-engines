@@ -15,7 +15,7 @@ import com.github.challenger1.etherealengines.init.EtherealEnginesModBlocks;
 
 public abstract class EtheriumFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> EtherealEnginesModFluidTypes.ETHERIUM_TYPE.get(), () -> EtherealEnginesModFluids.ETHERIUM.get(),
-			() -> EtherealEnginesModFluids.FLOWING_ETHERIUM.get()).explosionResistance(100f).tickRate(20).slopeFindDistance(2).bucket(() -> EtherealEnginesModItems.ETHERIUM_BUCKET.get())
+			() -> EtherealEnginesModFluids.FLOWING_ETHERIUM.get()).explosionResistance(100f).tickRate(25).slopeFindDistance(2).bucket(() -> EtherealEnginesModItems.ETHERIUM_BUCKET.get())
 			.block(() -> (LiquidBlock) EtherealEnginesModBlocks.ETHERIUM.get());
 
 	private EtheriumFluid() {

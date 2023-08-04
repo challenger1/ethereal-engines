@@ -21,7 +21,7 @@ public class EtheriaDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return color;
+					return new Vec3(1, 0, 1);
 				}
 
 				@Override
