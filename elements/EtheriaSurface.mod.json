@@ -63,25 +63,26 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 16,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
-    "minHeight": 4,
+    "treeType": 0,
+    "minHeight": 2,
     "treeStem": {
       "value": "CUSTOM:CrystalBody"
     },
     "treeBranch": {
-      "value": "CUSTOM:CrystalBody"
+      "value": "CUSTOM:GrowingCrystal"
     },
     "treeVines": {
-      "value": "CUSTOM:GrowingCrystal"
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": "CUSTOM:GrowingCrystal"
+      "value": "Blocks.AIR"
     },
     "defaultFeatures": [
-      "Caves",
-      "Ores"
+      "Ores",
+      "MonsterRooms",
+      "AmethystGeodes"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

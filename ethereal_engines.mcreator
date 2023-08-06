@@ -48,12 +48,7 @@
       "registry_name": "etheria_surface",
       "metadata": {
         "files": [
-          "src/main/resources/data/ethereal_engines/worldgen/biome/etheria_surface.json",
-          "src/main/java/com/github/challenger1/etherealengines/world/features/treedecorators/EtheriaSurfaceTrunkDecorator.java",
-          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/etheria_surface_tree.json",
-          "src/main/java/com/github/challenger1/etherealengines/world/features/treedecorators/EtheriaSurfaceLeaveDecorator.java",
-          "src/main/java/com/github/challenger1/etherealengines/world/features/treedecorators/EtheriaSurfaceFruitDecorator.java",
-          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/etheria_surface_tree.json"
+          "src/main/resources/data/ethereal_engines/worldgen/biome/etheria_surface.json"
         ]
       }
     },
@@ -169,32 +164,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/ethereal_engines/loot_tables/blocks/crystal_apex.json"
-        ]
-      }
-    },
-    {
-      "name": "DirtBlocks",
-      "type": "tag",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dirt_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
-        ]
-      }
-    },
-    {
-      "name": "LogBlocks",
-      "type": "tag",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "log_blocks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/blocks/logs.json"
         ]
       }
     }
