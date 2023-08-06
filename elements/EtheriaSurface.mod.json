@@ -59,21 +59,21 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 0,
-    "vanillaTreeType": "Default",
-    "treeType": 0,
+    "treesPerChunk": 3,
+    "vanillaTreeType": "Mega spruce trees",
+    "treeType": 1,
     "minHeight": 7,
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:CrystalBody"
     },
     "treeBranch": {
-      "value": ""
+      "value": "CUSTOM:CrystalBody"
     },
     "treeVines": {
-      "value": ""
+      "value": "CUSTOM:GrowingCrystal"
     },
     "treeFruits": {
-      "value": ""
+      "value": "CUSTOM:GrowingCrystal"
     },
     "defaultFeatures": [
       "Caves",

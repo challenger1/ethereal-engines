@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ethereal_engines:block/crystal_body_cut",
+    "up": "ethereal_engines:block/crystal_body_cut",
+    "north": "ethereal_engines:block/crystal_body",
+    "east": "ethereal_engines:block/crystal_body",
+    "south": "ethereal_engines:block/crystal_body",
+    "west": "ethereal_engines:block/crystal_body",
+    "particle": "ethereal_engines:block/crystal_body_cut"
+  },
+  "render_type": "solid"
+}

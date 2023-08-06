@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crystal_apex",
+        "1": "crystal_body_cut",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

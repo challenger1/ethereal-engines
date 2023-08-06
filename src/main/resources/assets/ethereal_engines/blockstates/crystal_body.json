@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ethereal_engines:block/crystal_body",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ethereal_engines:block/crystal_body"
+    },
+    "axis=z": {
+      "model": "ethereal_engines:block/crystal_body",
+      "x": 90
+    }
+  }
+}

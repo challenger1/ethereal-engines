@@ -48,7 +48,12 @@
       "registry_name": "etheria_surface",
       "metadata": {
         "files": [
-          "src/main/resources/data/ethereal_engines/worldgen/biome/etheria_surface.json"
+          "src/main/resources/data/ethereal_engines/worldgen/biome/etheria_surface.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/features/treedecorators/EtheriaSurfaceTrunkDecorator.java",
+          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/etheria_surface_tree.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/features/treedecorators/EtheriaSurfaceLeaveDecorator.java",
+          "src/main/java/com/github/challenger1/etherealengines/world/features/treedecorators/EtheriaSurfaceFruitDecorator.java",
+          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/etheria_surface_tree.json"
         ]
       }
     },
@@ -107,6 +112,65 @@
           "src/main/java/com/github/challenger1/etherealengines/block/GrowingCrystalBlock.java"
         ]
       }
+    },
+    {
+      "name": "CrystalBody",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_body",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ethereal_engines/blockstates/crystal_body.json",
+          "src/main/resources/assets/ethereal_engines/models/block/crystal_body.json",
+          "src/main/resources/assets/ethereal_engines/models/item/crystal_body.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/CrystalBodyBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalApex",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_apex",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ethereal_engines/blockstates/crystal_apex.json",
+          "src/main/resources/assets/ethereal_engines/models/block/crystal_apex.json",
+          "src/main/resources/assets/ethereal_engines/models/item/crystal_apex.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/CrystalApexBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalShard",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ethereal_engines/models/item/crystal_shard.json",
+          "src/main/java/com/github/challenger1/etherealengines/item/CrystalShardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LootCrystalApex",
+      "type": "loottable",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_crystal_apex",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ethereal_engines/loot_tables/blocks/crystal_apex.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -114,11 +178,14 @@
   "language_map": {
     "en_us": {
       "block.ethereal_engines.ethereal_stone": "Ethereal Stone",
+      "block.ethereal_engines.crystal_body": "Crystal Body",
+      "item.ethereal_engines.crystal_shard": "Crystal Shard",
       "item.ethereal_engines.etheria": "Etheria Portal Igniter",
       "biome.ethereal_engines.etheria_surface": "Etheria Surface",
       "block.ethereal_engines.growing_crystal": "Growing Crystal",
       "block.ethereal_engines.ethereal_block": "Ethereal Block",
       "fluid.ethereal_engines.etherium": "Etherium",
+      "block.ethereal_engines.crystal_apex": "Crystal Apex",
       "item.ethereal_engines.etherium_bucket": "Etherium Bucket",
       "block.ethereal_engines.etherium": "Etherium"
     }

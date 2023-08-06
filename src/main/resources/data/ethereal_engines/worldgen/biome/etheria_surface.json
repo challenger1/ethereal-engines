@@ -74,7 +74,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "ethereal_engines:etheria_surface_tree"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]

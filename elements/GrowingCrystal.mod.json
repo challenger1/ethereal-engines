@@ -14,7 +14,7 @@
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Plains",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 4,
     "doublePlantGenerationType": "Grass",
     "customBoundingBox": false,
@@ -37,12 +37,12 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 0,
+    "luminance": 2,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "GLASS"
     },
     "breakSound": {
       "value": ""
@@ -59,13 +59,13 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -74,18 +74,22 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 100,
-    "fireSpreadSpeed": 60,
+    "flammability": 0,
+    "fireSpreadSpeed": 10,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
-    "canBePlacedOn": [],
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:EtherealBlock"
+      }
+    ],
     "isBonemealable": false,
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 7,
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:Etheria"
     ],
     "restrictionBiomes": [],
-    "patchSize": 64,
+    "patchSize": 3,
     "generateAtAnyHeight": false
   }
 }
