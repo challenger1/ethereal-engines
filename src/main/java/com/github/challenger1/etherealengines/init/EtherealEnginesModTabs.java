@@ -23,6 +23,7 @@ public class EtherealEnginesModTabs {
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(EtherealEnginesModBlocks.GROWING_CRYSTAL.get().asItem());
 			tabData.accept(EtherealEnginesModBlocks.CRYSTAL_BODY.get().asItem());
+			tabData.accept(EtherealEnginesModBlocks.CRYSTAL_APEX.get().asItem());
 		}
 	}
 }

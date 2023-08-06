@@ -22,10 +22,10 @@
     },
     "foliage_color": 10387789,
     "grass_color": 9470285,
-    "sky_color": -65281,
-    "fog_color": -65281,
+    "sky_color": -39169,
+    "fog_color": -39169,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": -65281
   },
   "spawners": {
     "monster": [],
@@ -77,8 +77,6 @@
     [
       "ethereal_engines:etheria_surface_tree"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ]
 }

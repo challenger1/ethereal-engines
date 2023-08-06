@@ -1,16 +1,19 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "ethereal_engines:block/crystal_apex",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
+    "facing=north": {
       "model": "ethereal_engines:block/crystal_apex"
     },
-    "axis=z": {
+    "facing=east": {
       "model": "ethereal_engines:block/crystal_apex",
-      "x": 90
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ethereal_engines:block/crystal_apex",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ethereal_engines:block/crystal_apex",
+      "y": 270
     }
   }
 }

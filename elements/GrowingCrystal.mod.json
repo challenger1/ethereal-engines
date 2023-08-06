@@ -14,7 +14,7 @@
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
-    "growapableSpawnType": "Cave",
+    "growapableSpawnType": "Nether",
     "growapableMaxHeight": 4,
     "doublePlantGenerationType": "Grass",
     "customBoundingBox": false,
@@ -59,9 +59,9 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": true,
+    "useLootTableForDrops": false,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:CrystalApex"
     },
     "dropAmount": 1,
     "forceTicking": false,
@@ -88,8 +88,12 @@
     "spawnWorldTypes": [
       "CUSTOM:Etheria"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:EtheriaSurface"
+      }
+    ],
     "patchSize": 3,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": true
   }
 }

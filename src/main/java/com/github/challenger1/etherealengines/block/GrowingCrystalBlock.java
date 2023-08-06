@@ -5,6 +5,7 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraftforge.common.PlantType;
 
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.BlockState;
@@ -13,8 +14,12 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.DoublePlantBlock;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import java.util.List;
+import java.util.Collections;
 
 import com.github.challenger1.etherealengines.init.EtherealEnginesModBlocks;
 
@@ -26,6 +31,16 @@ public class GrowingCrystalBlock extends DoublePlantBlock {
 	@Override
 	public int getFireSpreadSpeed(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 10;
+	}
+
+	@Override
+	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+		if (state.getValue(HALF) != DoubleBlockHalf.LOWER)
+			return Collections.emptyList();
+		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+		if (!dropsOriginal.isEmpty())
+			return dropsOriginal;
+		return Collections.singletonList(new ItemStack(EtherealEnginesModBlocks.CRYSTAL_APEX.get()));
 	}
 
 	@Override
@@ -45,6 +60,6 @@ public class GrowingCrystalBlock extends DoublePlantBlock {
 
 	@Override
 	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
-		return PlantType.CAVE;
+		return PlantType.NETHER;
 	}
 }

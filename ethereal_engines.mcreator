@@ -171,6 +171,32 @@
           "src/main/resources/data/ethereal_engines/loot_tables/blocks/crystal_apex.json"
         ]
       }
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
