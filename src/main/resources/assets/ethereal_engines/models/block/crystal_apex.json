@@ -1,13 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "ethereal_engines:custom/crystalapex",
   "textures": {
-    "down": "ethereal_engines:block/crystal_body_cut",
-    "up": "ethereal_engines:block/blank",
-    "north": "ethereal_engines:block/crystal_apex",
-    "east": "ethereal_engines:block/crystal_apex",
-    "south": "ethereal_engines:block/crystal_apex",
-    "west": "ethereal_engines:block/crystal_apex",
-    "particle": "ethereal_engines:block/crystal_body_cut"
+    "all": "ethereal_engines:block/crystal_body_cut",
+    "particle": "ethereal_engines:block/crystal_body_cut",
+    "0": "ethereal_engines:block/crystal_apex",
+    "1": "ethereal_engines:block/crystal_body_cut",
+    "missing": "ethereal_engines:block/blank"
   },
   "render_type": "translucent"
 }
