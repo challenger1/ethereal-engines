@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class EtherealBlockBlock extends Block {
 	public EtherealBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.STONE).strength(1f, 10f));
 	}
 
 	@Override
