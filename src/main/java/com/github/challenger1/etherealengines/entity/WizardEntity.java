@@ -234,12 +234,13 @@ public class WizardEntity extends Monster implements RangedAttackMob {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
-		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 2);
+		builder = builder.add(Attributes.MAX_HEALTH, 200);
+		builder = builder.add(Attributes.ARMOR, 20);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 15);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 100);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 17);
+		builder = builder.add(Attributes.FLYING_SPEED, 2);
 		return builder;
 	}
 }

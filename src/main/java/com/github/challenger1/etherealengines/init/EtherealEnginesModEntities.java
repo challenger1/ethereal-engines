@@ -24,7 +24,7 @@ import com.github.challenger1.etherealengines.EtherealEnginesMod;
 public class EtherealEnginesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, EtherealEnginesMod.MODID);
 	public static final RegistryObject<EntityType<WizardEntity>> WIZARD = register("wizard",
-			EntityType.Builder.<WizardEntity>of(WizardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WizardEntity::new)
+			EntityType.Builder.<WizardEntity>of(WizardEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1000).setUpdateInterval(3).setCustomClientFactory(WizardEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<WizardEntityProjectile>> WIZARD_PROJECTILE = register("projectile_wizard", EntityType.Builder.<WizardEntityProjectile>of(WizardEntityProjectile::new, MobCategory.MISC)
