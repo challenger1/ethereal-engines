@@ -218,6 +218,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "EtherealCastle",
+      "type": "structure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ethereal_castle",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/challenger1/etherealengines/world/features/EtherealCastleFeature.java",
+          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/ethereal_castle.json",
+          "src/main/resources/data/ethereal_engines/forge/biome_modifier/ethereal_castle_biome_modifier.json",
+          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/ethereal_castle.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
