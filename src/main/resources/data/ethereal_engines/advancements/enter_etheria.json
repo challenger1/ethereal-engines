@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ethereal_engines:etheria_portal"
+    },
+    "title": {
+      "translate": "advancements.enter_etheria.title"
+    },
+    "description": {
+      "translate": "advancements.enter_etheria.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "enter_etheria": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ethereal_engines:etheria"
+      }
+    }
+  },
+  "parent": "minecraft:nether/summon_wither"
+}

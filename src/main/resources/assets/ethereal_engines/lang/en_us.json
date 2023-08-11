@@ -1,13 +1,17 @@
 {
-  "block.ethereal_engines.ethereal_stone": "Ethereal Stone",
+  "advancements.enter_etheria.title": "Enter Etheria",
   "block.ethereal_engines.crystal_body": "Crystal Body",
-  "item.ethereal_engines.crystal_shard": "Crystal Shard",
   "item.ethereal_engines.etheria": "Etheria Portal Igniter",
-  "biome.ethereal_engines.etheria_surface": "Etheria Surface",
   "block.ethereal_engines.growing_crystal": "Growing Crystal",
-  "block.ethereal_engines.ethereal_block": "Ethereal Block",
   "fluid.ethereal_engines.etherium": "Etherium",
   "block.ethereal_engines.crystal_apex": "Crystal Apex",
   "item.ethereal_engines.etherium_bucket": "Etherium Bucket",
+  "advancements.enter_etheria.descr": "Follwing the Wizard\u0027s instructions, enter the Etheria dimension,",
+  "entity.ethereal_engines.wizard": "Wizard",
+  "block.ethereal_engines.ethereal_stone": "Ethereal Stone",
+  "item.ethereal_engines.crystal_shard": "Crystal Shard",
+  "biome.ethereal_engines.etheria_surface": "Etheria Surface",
+  "item.ethereal_engines.wizard_spawn_egg": "Wizard Spawn Egg",
+  "block.ethereal_engines.ethereal_block": "Ethereal Block",
   "block.ethereal_engines.etherium": "Etherium"
 }

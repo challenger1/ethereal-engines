@@ -42,6 +42,7 @@ import com.github.challenger1.etherealengines.init.EtherealEnginesModItems;
 import com.github.challenger1.etherealengines.init.EtherealEnginesModFluids;
 import com.github.challenger1.etherealengines.init.EtherealEnginesModFluidTypes;
 import com.github.challenger1.etherealengines.init.EtherealEnginesModFeatures;
+import com.github.challenger1.etherealengines.init.EtherealEnginesModEntities;
 import com.github.challenger1.etherealengines.init.EtherealEnginesModBlocks;
 
 @Mod("ethereal_engines")
@@ -55,6 +56,7 @@ public class EtherealEnginesMod {
 
 		EtherealEnginesModBlocks.REGISTRY.register(bus);
 		EtherealEnginesModItems.REGISTRY.register(bus);
+		EtherealEnginesModEntities.REGISTRY.register(bus);
 
 		EtherealEnginesModFeatures.REGISTRY.register(bus);
 
