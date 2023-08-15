@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "ethereal_engines:etheria_surface",
+  "biomes": [
+    "ethereal_engines:etheria_surface",
+    "desert"
+  ],
   "features": "ethereal_engines:ethereal_castle",
   "step": "underground_structures"
 }

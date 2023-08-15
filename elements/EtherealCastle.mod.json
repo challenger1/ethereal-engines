@@ -4,7 +4,7 @@
   "definition": {
     "structure": "micmokum-town1",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
+    "surfaceDetectionType": "First block",
     "spawnProbability": 100,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
@@ -13,12 +13,16 @@
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
-      "CUSTOM:Etheria"
+      "CUSTOM:Etheria",
+      "Surface"
     ],
     "restrictionBlocks": [],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:EtheriaSurface"
+      },
+      {
+        "value": "desert"
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK"

@@ -20,7 +20,7 @@ import net.minecraft.core.BlockPos;
 import java.util.Set;
 
 public class EtherealCastleFeature extends Feature<NoneFeatureConfiguration> {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registries.DIMENSION, new ResourceLocation("ethereal_engines:etheria")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registries.DIMENSION, new ResourceLocation("ethereal_engines:etheria")), Level.OVERWORLD);
 	private StructureTemplate template = null;
 
 	public EtherealCastleFeature() {
@@ -41,7 +41,7 @@ public class EtherealCastleFeature extends Feature<NoneFeatureConfiguration> {
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
-				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k);
+				int j = context.level().getHeight(Heightmap.Types.WORLD_SURFACE_WG, i, k);
 				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
 				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 				if (template.placeInWorld(context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)]).setRotation(Rotation.values()[context.random().nextInt(3)]).setRandom(context.random())
