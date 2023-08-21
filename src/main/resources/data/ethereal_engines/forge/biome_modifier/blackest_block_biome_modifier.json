@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "ethereal_engines:etheria_surface",
+  "features": "ethereal_engines:blackest_block",
+  "step": "underground_ores"
+}

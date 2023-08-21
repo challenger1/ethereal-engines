@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ethereal_engines:block/blackest_block",
+    "up": "ethereal_engines:block/blackest_block",
+    "north": "ethereal_engines:block/blackest_block",
+    "east": "ethereal_engines:block/blackest_block",
+    "south": "ethereal_engines:block/blackest_block",
+    "west": "ethereal_engines:block/blackest_block",
+    "particle": "ethereal_engines:block/blackest_block"
+  },
+  "render_type": "solid"
+}

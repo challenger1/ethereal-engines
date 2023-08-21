@@ -28,6 +28,7 @@ public class EtherealEnginesModTabs {
 			tabData.accept(EtherealEnginesModBlocks.GROWING_CRYSTAL.get().asItem());
 			tabData.accept(EtherealEnginesModBlocks.CRYSTAL_BODY.get().asItem());
 			tabData.accept(EtherealEnginesModBlocks.CRYSTAL_APEX.get().asItem());
+			tabData.accept(EtherealEnginesModBlocks.BLACKEST_BLOCK.get().asItem());
 		}
 	}
 }

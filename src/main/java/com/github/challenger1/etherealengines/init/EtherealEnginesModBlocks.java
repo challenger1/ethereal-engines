@@ -21,6 +21,7 @@ import com.github.challenger1.etherealengines.block.EtherealStoneBlock;
 import com.github.challenger1.etherealengines.block.EtherealBlockBlock;
 import com.github.challenger1.etherealengines.block.CrystalBodyBlock;
 import com.github.challenger1.etherealengines.block.CrystalApexBlock;
+import com.github.challenger1.etherealengines.block.BlackestBlockBlock;
 import com.github.challenger1.etherealengines.EtherealEnginesMod;
 
 public class EtherealEnginesModBlocks {
@@ -32,6 +33,7 @@ public class EtherealEnginesModBlocks {
 	public static final RegistryObject<Block> GROWING_CRYSTAL = REGISTRY.register("growing_crystal", () -> new GrowingCrystalBlock());
 	public static final RegistryObject<Block> CRYSTAL_BODY = REGISTRY.register("crystal_body", () -> new CrystalBodyBlock());
 	public static final RegistryObject<Block> CRYSTAL_APEX = REGISTRY.register("crystal_apex", () -> new CrystalApexBlock());
+	public static final RegistryObject<Block> BLACKEST_BLOCK = REGISTRY.register("blackest_block", () -> new BlackestBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

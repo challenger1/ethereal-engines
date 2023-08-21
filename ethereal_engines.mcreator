@@ -220,18 +220,22 @@
       }
     },
     {
-      "name": "EtherealCastle",
-      "type": "structure",
+      "name": "BlackestBlock",
+      "type": "block",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ethereal_castle",
+      "registry_name": "blackest_block",
       "metadata": {
         "files": [
-          "src/main/java/com/github/challenger1/etherealengines/world/features/EtherealCastleFeature.java",
-          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/ethereal_castle.json",
-          "src/main/resources/data/ethereal_engines/forge/biome_modifier/ethereal_castle_biome_modifier.json",
-          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/ethereal_castle.json"
+          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/blackest_block.json",
+          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/blackest_block.json",
+          "src/main/resources/assets/ethereal_engines/models/block/blackest_block.json",
+          "src/main/resources/assets/ethereal_engines/models/item/blackest_block.json",
+          "src/main/java/com/github/challenger1/etherealengines/block/BlackestBlockBlock.java",
+          "src/main/resources/assets/ethereal_engines/blockstates/blackest_block.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/features/ores/BlackestBlockFeature.java",
+          "src/main/resources/data/ethereal_engines/forge/biome_modifier/blackest_block_biome_modifier.json"
         ]
       }
     }
@@ -246,6 +250,7 @@
       "item.ethereal_engines.etheria": "Etheria Portal Igniter",
       "fluid.ethereal_engines.etherium": "Etherium",
       "block.ethereal_engines.crystal_apex": "Crystal Apex",
+      "block.ethereal_engines.blackest_block": "Blackest Block",
       "item.ethereal_engines.etherium_bucket": "Etherium Bucket",
       "advancements.enter_etheria.descr": "Follwing the Wizard\u0027s instructions, enter the Etheria dimension,",
       "entity.ethereal_engines.wizard": "Wizard",
