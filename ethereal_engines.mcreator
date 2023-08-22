@@ -238,6 +238,22 @@
           "src/main/resources/data/ethereal_engines/forge/biome_modifier/blackest_block_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "WizardsDungeon",
+      "type": "structure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizards_dungeon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ethereal_engines/forge/biome_modifier/wizards_dungeon_biome_modifier.json",
+          "src/main/resources/data/ethereal_engines/worldgen/placed_feature/wizards_dungeon.json",
+          "src/main/java/com/github/challenger1/etherealengines/world/features/WizardsDungeonFeature.java",
+          "src/main/resources/data/ethereal_engines/worldgen/configured_feature/wizards_dungeon.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
